@@ -30,11 +30,11 @@ Ces scores valident la précision anatomique des masques produits, permettant un
 
 Le projet est organisé en trois notebooks principaux :
 
-01_train_scapula.ipynb : Préparation des données et entraînement du modèle dédié à la scapula.
+train_scapula.ipynb : Préparation des données et entraînement du modèle dédié à la scapula.
 
-02_train_humerus.ipynb : Processus d'entraînement spécifique pour l'humérus.
+train_humerus.ipynb : Processus d'entraînement spécifique pour l'humérus.
 
-03_inference_3d.ipynb : Pipeline de production. Chargement des poids des modèles, inférence sur patient test et export des fichiers STL finaux.
+epaule3d.ipynb : Pipeline de production. Chargement des poids des modèles, inférence sur patient test et export des fichiers STL finaux.
 
 **Installation et dépendances**
 
