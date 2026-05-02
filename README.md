@@ -1,8 +1,12 @@
 # Segmentation et modélisation 3D de l'articulation de l'épaule
 
+<img width="595" height="646" alt="Capture d’écran 2026-05-02 093511" src="https://github.com/user-attachments/assets/958e3e73-5727-4d5c-ad5f-ce92ddab88eb" />
+
+## Présentation du projet
+
 Ce projet propose une solution automatisée pour la segmentation et la reconstruction 3D de la scapula et de l'humérus à partir d'images scanner (CT-scan). L'objectif est de générer des modèles anatomiques précis au format STL, utilisables pour la planification chirurgicale préopératoire.
 
-**Présentation technique**
+## Présentation technique
 
 Le pipeline repose sur une architecture Deep Learning de type U-Net 3D. Le processus est divisé en trois phases principales : l'entraînement spécifique par structure osseuse, l'inférence par fenêtre glissante et la reconstruction de surface.
 
