@@ -1,4 +1,4 @@
-**Segmentation et modélisation 3D de l'articulation de l'épaule**
+# Segmentation et modélisation 3D de l'articulation de l'épaule
 
 Ce projet propose une solution automatisée pour la segmentation et la reconstruction 3D de la scapula et de l'humérus à partir d'images scanner (CT-scan). L'objectif est de générer des modèles anatomiques précis au format STL, utilisables pour la planification chirurgicale préopératoire.
 
