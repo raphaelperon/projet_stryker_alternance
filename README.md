@@ -46,18 +46,14 @@ epaule3d.ipynb : Pipeline de production. Chargement des poids des modèles, inf�
 **Installation et dépendances**
 
 Les notebooks nécessitent un environnement Python 3 avec les bibliothèques suivantes :
-
+```
 pip install torch torchvision torchaudio
-
 pip install nibabel
-
 pip install scikit-image
-
 pip install scipy
-
 pip install numpy
-
 pip install matplotlib
+```
 
 **Utilisation**
 
