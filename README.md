@@ -16,7 +16,8 @@ Le pipeline repose sur une architecture Deep Learning de type U-Net 3D. Le proce
 
 **Segmentation** : Réseau U-Net 3D avec blocs de double convolution, normalisation par lots (BatchNorm) et connexions résiduelles (Skip Connections).
 
-<img width="2942" height="2618" alt="Diagramme vierge" src="https://github.com/user-attachments/assets/e7419d53-26d8-4f9e-b57a-90d7bd86b0a1" />
+<img width="800" height="700" alt="Diagramme vierge (1)" src="https://github.com/user-attachments/assets/0e0451ae-56c0-4378-af34-f6918a4d7d6b" />
+
 
 **Prétraitement** : Normalisation des unités Hounsfield (HU) sur une plage de -200 à 1800 pour isoler les densités osseuses et extraction de patches 3D de 64x64x64 voxels.
 
